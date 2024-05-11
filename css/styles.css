@@ -51,6 +51,18 @@ common
     padding: 0 15px;
   }
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /* ========================================================================================================================================================
 header
 ======================================================================================================================================================== */
@@ -296,3 +308,83 @@ button:focus {
       url(../images/bgpic-decktop@2x.jpg);
   }
 }
+/* ========================================================================================================================================================
+benefits
+======================================================================================================================================================== */
+.section {
+  padding: 96px 16px;
+}
+
+.about-us-header {
+  margin-bottom: 8px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.about-us-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 72px;
+  max-width: 288px;
+}
+.about-us-icons {
+  display: none;
+}
+
+.about-us-item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+@media screen and (min-width: 768px) {
+  .about-us-header {
+    text-align: left;
+  }
+
+  .about-us-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    max-width: 736px;
+  }
+  .about-us-part {
+    width: calc((100% - 24px) / 2);
+  }
+}
+@media screen and (min-width: 1158px) {
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .about-us-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .about-us-part {
+    width: calc((100% - 72px) / 4);
+  }
+  .about-us-list {
+    max-width: 1128px;
+  }
+  .about-us-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background: #f4f4fd;
+    margin-bottom: 8px;
+  }
+}
+/* ========================================================================================================================================================
+our team
+======================================================================================================================================================== */
