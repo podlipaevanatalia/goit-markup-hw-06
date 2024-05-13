@@ -918,7 +918,9 @@ backdrop
   letter-spacing: 0.04em;
   color: #8e8f99;
 }
-
+.label-text {
+  max-width: 231px;
+}
 .modal-checkbox:checked + .modal-form-lable-checkbox > .form-own-checkbox {
   background-color: #404bbf;
   border: 1px solid #404bbf;
@@ -954,10 +956,16 @@ backdrop
     padding-left: 24px;
     padding-right: 24px;
   }
+
+  .modal-paragraph {
+    max-width: 360px;
+  }
+
+  .label-text {
+    max-width: 338px;
+  }
 }
-.modal-paragraph {
-  max-width: 360px;
-}
+
 /* ========================================================================================================================================================
 mobile menu
 ======================================================================================================================================================== */
