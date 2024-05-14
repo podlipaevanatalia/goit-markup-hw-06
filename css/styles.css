@@ -198,7 +198,6 @@ hero
   padding-right: 52px;
 }
 .hero {
-  max-width: 320px;
   margin-left: auto;
   margin-right: auto;
   padding: 72px 0;
@@ -259,7 +258,6 @@ button:focus {
     padding-right: 136px;
   }
   .hero {
-    max-width: 768px;
     padding: 112px 0;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -290,7 +288,6 @@ button:focus {
     padding-right: 331px;
   }
   .hero {
-    max-width: 1440px;
     padding: 188px 0;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -402,7 +399,6 @@ our team
   margin-bottom: 72px;
 }
 .team {
-  max-width: 320px;
   margin-left: auto;
   margin-right: auto;
   background-color: #f4f4fd;
@@ -438,7 +434,6 @@ our team
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 .team-name-item {
@@ -477,7 +472,6 @@ our team
 }
 @media screen and (min-width: 768px) {
   .team {
-    max-width: 768px;
     padding: 96px 0;
   }
   .team-list {
@@ -491,7 +485,6 @@ our team
 }
 @media screen and (min-width: 1158px) {
   .team {
-    max-width: 1440px;
     padding: 120px 0;
   }
 }
@@ -519,7 +512,6 @@ portfolio
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 .portfolio-item-type {
@@ -578,7 +570,6 @@ portfolio
 footer
 ======================================================================================================================================================== */
 .footer {
-  max-width: 320px;
   margin-left: auto;
   margin-right: auto;
   background-color: #2e2f42;
@@ -704,7 +695,6 @@ footer
 }
 @media screen and (min-width: 768px) {
   .footer {
-    max-width: 768px;
     padding: 96px 0;
   }
   .footer-container {
@@ -743,7 +733,6 @@ footer
 }
 @media screen and (min-width: 1158px) {
   .footer {
-    max-width: 1440px;
     padding: 100px 0;
   }
   .footer-container {
@@ -1051,6 +1040,9 @@ mobile menu
 .mobile-address-link.accent-color {
   color: #404bbf;
 }
+.mobile-address {
+  margin-bottom: 54px;
+}
 .mobile-address-link {
   display: inline-block;
   margin-bottom: 24px;
@@ -1058,6 +1050,7 @@ mobile menu
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  font-style: normal;
 }
 .mobile-address-link:hover,
 .mobile-address-link:focus {
